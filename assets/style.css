@@ -53,3 +53,30 @@ footer{background:#082624;color:#b9c4d0;padding:60px 0 24px;font-size:.92rem}foo
 @media(max-width:540px){.g3,.g4{grid-template-columns:1fr}}
 
 .i{width:1em;height:1em;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;vertical-align:-.12em;flex:none}.ico .i{width:26px;height:26px}h3>.i{color:var(--gold);width:1.1em;height:1.1em}.row{display:flex;gap:12px;align-items:center;margin:12px 0;color:var(--mut)}.row .i{width:22px;height:22px;color:var(--gold)}.cta h2,.stats{color:#fff}.cta .tag{color:#d8b56a}
+
+
+/* Photography refresh */
+.ph[data-label]:not([data-label=""]):not([data-label*="MAP PLACEHOLDER"])::after{display:none}
+.ph[data-label]:not([data-label=""]){background-size:cover;background-position:center;background-repeat:no-repeat}
+.hero .ph{background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2000&q=85')}
+.ph[data-label*="Advisor meeting"]{background-image:url('https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Mutual funds"]{background-image:url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Portfolio"]{background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Retirement"]{background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Real estate"]{background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Tax"]{background-image:url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Business"]{background-image:url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Analysts"]{background-image:url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Blog 1"],.ph[data-label*="Article 1"]{background-image:url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Blog 2"],.ph[data-label*="Article 2"]{background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Blog 3"],.ph[data-label*="Article 3"]{background-image:url('https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Article 4"]{background-image:url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Article 5"]{background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Article 6"]{background-image:url('https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="About banner"],.ph[data-label*="Services banner"],.ph[data-label*="Insights banner"],.ph[data-label*="Contact banner"]{background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=85')}
+.ph[data-label*="Office / team"]{background-image:url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85')}
+.ph[data-label*="Founder"]{background-image:url('https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=700&q=85')}
+.ph[data-label*="CIO"]{background-image:url('https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=85')}
+.ph[data-label*="Research"]{background-image:url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=85')}
+.ph[data-label*="Advisory"]{background-image:url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85')}
+.ph[data-label*="Portfolio"]{background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=85')}
